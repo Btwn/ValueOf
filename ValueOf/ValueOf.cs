@@ -105,5 +105,13 @@ namespace ValueOf
         {
             return Value.ToString();
         }
+        
+//         public static implicit operator Cliente(string value)
+//         {
+//             if (value == null)
+//                 return null;
+
+//             return Cliente.From(value);
+//         }
     }
 }
